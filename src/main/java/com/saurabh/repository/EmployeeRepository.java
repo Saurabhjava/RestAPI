@@ -16,7 +16,7 @@ public class EmployeeRepository {
 	public EmployeeRepository() {
 		employees=new ArrayList<Employee>();
 		employees.add(new Employee(1001, "Mark", "mark@gmail.com"));
-		employees.add(new Employee(1002, "Mark1", "mark1@gmail.com"));
+		employees.add(new Employee(1002, "Chirag", "mark1@gmail.com"));
 		employees.add(new Employee(1003, "Mark2", "mark2@gmail.com"));
 		employees.add(new Employee(1004, "Mark3", "mark3@gmail.com"));
 	}
