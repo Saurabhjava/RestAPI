@@ -16,7 +16,7 @@ class EmployeeRestApplicationTests {
 	@Test
 	void contextLoads() {
 		Employee emp=eService.getEmployee(1002);
-		assertEquals("Mark1", emp.getName());
+		assertEquals("Chirag", emp.getName());
 	}
 
 }
